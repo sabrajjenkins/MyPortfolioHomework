@@ -1,1 +1,2 @@
 # MyPortfolioHomework
+The beginning
