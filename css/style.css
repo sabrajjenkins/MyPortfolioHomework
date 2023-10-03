@@ -33,6 +33,7 @@ ul.nav{
 }
 section.hero{
     background: var(--purple-gradiant);
+    padding: 80px;
 }
 .heroContainer{
     margin: auto;
@@ -42,8 +43,8 @@ section.hero{
     justify-content: center;
 }
 .heroImage{
-    width: 50px;
-    padding: 10px;
+    width: 300px;
+    padding: 40px;
 }
 .heroContent{
     width: 647px;
