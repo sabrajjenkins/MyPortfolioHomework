@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color: var(--Gray);
+}
+.topNav{
+    background-color: var(--purple-gradient);
+}
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--container-width);
+    margin: auto;
+}
+ul.nav{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.navItem{
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: var(--font-size-navigation);
+    color: var(--primary);
+}
+.navItem:hover{
+    color: var(--primary-dark);
+    background-color: var(--Secondary-light);
+}
+.navItem.selected{
+    color: var(--secondary-dark);
+}
+section.hero{
+    background: var(--purple-gradient);
+}
+.heroContainer{
+    margin: auto;
+    width: var(--container-width);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroImage{
+    width: 50px;
+    padding: 10px;
+}
+.heroContent{
+    width: 647px;
+}
+.heroTitle{
+    font-size: var(--font-size-h1);
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.heroText{
+    margin: 0;
+}
+.projects{
+    width: var(--container-width);
+    margin-top: 60px;
+}
+.sectionTitle{
+    font-size: var(--font-size-h2);
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.projects .sectionTitle{
+    text-align: center;
+}
+.projectCard{
+    width: 100%;
+    border: 1px solid var(--gray-extra-light);
+    background: var(--white);
+}
+.cardImage{
+    width: 100%;
+}
+.heroContent{
+    padding: 16px;
+}
+.cardTitle{
+    font-size: var(--font-size-h3);
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+}
+.cardText{
+    margin-bottom: 0.75rem;
+}
+.btnPrimary{
+    border-radius: 0.25rem;
+    background: var(--primary);
+    padding: 0.62rem;
+    color: var(--white);
+    font-size: var(--font-size-button);
+    font-weight: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}

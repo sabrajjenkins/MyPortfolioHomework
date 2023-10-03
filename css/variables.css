@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --primary:#3B545F;
+    --primary-light: #5A6C81;
+    --Primary-extra-light: #D2D8E0;
+    --primary-dark: #283C3D;
+    --secondary: #B696B4;
+    --secondary-dark: #84819F;
+    --secondary-light: #E6ADBE;
+    --secondary-extra-light: #F9EBF0;
+    --success: #428A6D;
+    --success-light:#E7F4D7;
+    --success-extra-light:#F3FAEB;
+    --success-dark:#2D625B;
+    --success-bright:#ACD772;
+    --gray-dark: #06090A;
+    --gray-green: #283C3D;
+    --gray-light: #5A5F62;
+    --gray-extra-light: #E2E3E3;
+    --white: #FFFFFF;
+    --yellow: #F9F871;
+    --Green-gradiant:liniear-gradient(180deg,rgba(45, 98, 91, 1) 100%);
+    --purple-gradiant:liniar-gradient(180deg, rgba(132, 129, 159, 1)100%);
+    --font-size-h1: 2.125rem;
+    --font-size-h2: 1.75rem;
+    --font-size-h3: 1.5rem;
+    --font-size-h4: 1.25rem;
+    --font-size-h5: 1.125rem;
+    --font-size-h6: 1rem;
+    --font-size-body-small: 0.875rem;
+    --font-size-button: 0.875rem;
+    --font-size-navigation: 1.2rem;
+    --container-width: 1400px;
+}
+@media all and (max-width: 1400px){
+    :root{
+        --container-width:1140px
+    }
+}
