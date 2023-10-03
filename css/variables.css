@@ -20,8 +20,8 @@
     --gray-extra-light: #E2E3E3;
     --white: #FFFFFF;
     --yellow: #F9F871;
-    --Green-gradiant:liniear-gradient(180deg,rgba(45, 98, 91, 1) 100%);
-    --purple-gradiant:liniar-gradient(180deg, rgba(132, 129, 159, 1)100%);
+    --green-gradiant:linear-gradient(180deg, #2D625B 0%, #93B29F 54.62%, #F3FAEB 100%);
+    --purple-gradiant:linear-gradient(180deg, #84819F 6.25%, #B597AE 55.73%, #FBE1EF 100%);
     --font-size-h1: 2.125rem;
     --font-size-h2: 1.75rem;
     --font-size-h3: 1.5rem;

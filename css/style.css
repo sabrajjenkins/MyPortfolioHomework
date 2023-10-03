@@ -4,7 +4,7 @@ body{
     color: var(--Gray);
 }
 .topNav{
-    background-color: var(--purple-gradient);
+    background: var(--white);
 }
 .navContainer{
     display: flex;
@@ -32,7 +32,7 @@ ul.nav{
     color: var(--secondary-dark);
 }
 section.hero{
-    background: var(--purple-gradient);
+    background: var(--purple-gradiant);
 }
 .heroContainer{
     margin: auto;
