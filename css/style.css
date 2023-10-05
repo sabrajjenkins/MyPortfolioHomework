@@ -32,7 +32,7 @@ ul.nav{
     color: var(--secondary-dark);
 }
 section.hero{
-    background: var(--purple-gradiant);
+    background: var(--purple-gradient);
     padding: 80px;
 }
 .heroContainer{
@@ -61,6 +61,7 @@ section.hero{
 }
 .projects{
     width: var(--container-width);
+    margin: auto;
     margin-top: 60px;
 }
 .sectionTitle{
@@ -72,6 +73,11 @@ section.hero{
 }
 .projects .sectionTitle{
     text-align: center;
+}
+.projectContainer{
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
 }
 .projectCard{
     width: 100%;
