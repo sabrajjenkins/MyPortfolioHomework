@@ -112,3 +112,33 @@ section.hero{
     text-decoration: none;
     display: inline-block;
 }
+footer{
+    background: var(--primary-gradient-rev);
+    margin-top: 60px;
+}
+.footerContainer{
+    width: var(--container-width);
+    margin: auto;
+    text-align: center;
+}
+.footerTitle{
+    font-size: var(--font-size-h5);
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+}
+.footerText{
+    font-size: var(--font-size-body-small);
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+}
+.footerCopy{
+    font-size: var(--font-size-body-small);
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+}
