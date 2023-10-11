@@ -79,6 +79,9 @@ section.hero{
     gap: 24px;
     align-items: stretch;
 }
+.cardContent{
+    padding: 16px;
+}
 .projectCard{
     width: 100%;
     border: 1px solid var(--gray-extra-light);
