@@ -31,6 +31,9 @@ ul.nav{
 .navItem.selected{
     color: var(--secondary-dark);
 }
+.mobileMenu{
+    display: none;
+}
 section.hero{
     background: var(--purple-gradient);
     padding: 80px;
@@ -38,16 +41,22 @@ section.hero{
 .heroContainer{
     margin: auto;
     width: var(--container-width);
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
+    /*outline: 1px solid red;*/
 }
 .heroImage{
     width: 300px;
+    width: 33%;
     padding: 40px;
+    /*outline: 1px solid red;*/
 }
 .heroContent{
     width: 647px;
+    width: 66%;
+    /*outline: 1px solid red;*/
 }
 .heroTitle{
     font-size: var(--font-size-h1);
@@ -55,9 +64,11 @@ section.hero{
     font-weight: 600;
     margin-bottom: 20px;
     margin-top: 0;
+    /*outline: 1px solid red;*/
 }
 .heroText{
     margin: 0;
+    /*outline: 1px solid red;*/
 }
 .projects{
     width: var(--container-width);
@@ -92,6 +103,7 @@ section.hero{
 }
 .heroContent{
     padding: 16px;
+    /*outline: 1px solid red;*/
 }
 .cardTitle{
     font-size: var(--font-size-h3);
@@ -144,4 +156,54 @@ footer{
     font-weight: 400;
     margin-bottom: 0.75rem;
     margin-top: 0;
+}
+@media all and (max-width:1400px){
+  .heroImage{
+    width: 20%;
+  } 
+  .heroContent{
+    width: 60%;
+  }
+}
+@media all and (max-width:992px){
+    .heroImage{
+      width: 20%;
+    } 
+    .heroContent{
+      width: 80%;
+    }
+    .projectContainer{
+        flex-wrap: wrap;
+    }
+    .projectCard{
+        width: 48%;
+    }
+  }
+  @media all and (max-width:768px){
+    .heroContainer{
+      flex-direction: column;
+    } 
+    .heroTitle{
+      text-align: center;
+    }
+    .heroImage{
+        width: 40%;
+  }
+  .heroContent{
+    width: 100%;
+  }
+  .ProjectCard{
+    width: 100%;
+  }
+}
+@media all and (max-width: 576px){
+    .mobileMenu{
+        display: block;
+    }
+    ul.nav{
+        display: none;
+    }
+    .topNav{
+        padding: 20px 0;
+    }
 }
