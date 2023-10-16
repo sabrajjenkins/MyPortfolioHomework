@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Home</title>
 </head>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="./js/nav.js"></script>
+
 <body>
    <nav class="topNav">
     <div class="navContainer">
@@ -21,7 +25,13 @@
             <li><a href="#" class="navItem">Resume</a></li>
         </ul>
         <div class="mobileMenu">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" id="navIcon"></i>
+            <div class="mobileNav">
+                <a href="./index.html" class="mNavItem selected">Home</a>
+                <a href="#" class="mNavItem">About</a>
+                <a href="#" class="mNavItem">projects</a>
+                <a href="#" class="mNavItem">Resume</a>
+            </div>
         </div>
     </div>
    </nav>
