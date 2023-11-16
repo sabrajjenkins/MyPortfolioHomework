@@ -116,6 +116,20 @@ section.hero{
     margin-bottom: 0.75rem;
 }
 .btnPrimary{
+    /*border-radius: 0.5rem;*/
+    border-radius: 0.25rem;
+    background: var(--primary);
+    padding: 0.62rem;
+    color: var(--white);
+    font-size: var(--font-size-button);
+    font-weight: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+/* second button style in development */
+.btnSecondary{
     border-radius: 0.25rem;
     background: var(--primary);
     padding: 0.62rem;
